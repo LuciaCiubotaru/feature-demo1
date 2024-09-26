@@ -1,0 +1,12 @@
+### Feature Development Checklist
+- [ ] **Requirements**: Does the feature meet the product or technical requirements?
+- [ ] **Functionality**: Is the feature working as expected in all supported environments?
+- [ ] **Unit/Integration Tests**: Are there sufficient tests covering the new functionality?
+- [ ] **Edge Cases**: Have all possible edge cases been considered and tested?
+- [ ] **Documentation**: Is the documentation updated (API docs, README, etc.) for the new feature?
+- [ ] **Code Structure**: Is the code modular and follows separation of concerns?
+- [ ] **Performance**: Is the feature optimized for performance? No unnecessary loops or bottlenecks?
+- [ ] **Security**: Have security implications been considered? No hardcoded secrets or potential vulnerabilities?
+- [ ] **Backward Compatibility**: Does the feature maintain backward compatibility where necessary?
+- [ ] **Peer Review**: Has the feature been reviewed by at least one other team member?
+- [ ] **Dependencies**: Have all dependencies been correctly versioned and documented?
