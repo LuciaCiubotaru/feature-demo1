@@ -1,11 +1,30 @@
-### Refactoring Checklist
-- [ ] **No Functional Changes**: Verify that no business logic or functionality has changed unintentionally.
-- [ ] **Code Simplification**: Is the codebase simpler and easier to maintain post-refactor?
-- [ ] **Performance**: Has the refactor improved or at least maintained performance levels?
-- [ ] **Test Coverage**: Do all existing tests still pass after the refactor? Were new tests added for any modified logic?
-- [ ] **Unused Code**: Has all dead or unused code been removed?
-- [ ] **Code Duplication**: Has code duplication been reduced or eliminated?
-- [ ] **Readability**: Is the code more readable and understandable after the refactor?
-- [ ] **SOLID Principles**: Does the code adhere to SOLID principles and best design patterns?
-- [ ] **Backward Compatibility**: Does the refactored code maintain backward compatibility with existing APIs or services?
-- [ ] **Documentation**: Has documentation been updated to reflect any new architectural changes?
+# Pull Request
+
+## Description
+<! Please include a summary of the change and the issue addressed by this PR. -->
+
+## JIRA Ticket
+- [ ] - <!-- "DPT-123" etc - only required if JIRA ticket exists -->
+- [ ] - None    
+
+
+### Types of changes
+- [ ] - :rocket: New feature
+- [ ] - :lipstick: Enhancement / Refactor
+- [ ] - :bug: Bug / Hotfix
+- [ ] - :robot: Tests
+- [ ] - :zap: Performance
+- [ ] - :books: Documentation
+    
+##  PR Creator checklist
+- [ ] - :I performed a self-review of my code by following the code_review checklists: https://sportsbet.atlassian.net/wiki/spaces/SC/pages/12450529467/Data+-+Code+Review+Checklist
+- [ ] - :I wrote a description of requested changes
+- [ ] - :I wrote unit tests/integration tests and documented them
+    
+## Code Review checklist
+- [ ] - :The code is documented and easy to understand
+- [ ] - :Test are present
+- [ ] - :There is no commented out code
+- [ ] - :Errors are handled
+- [ ] - :Naming of methods, variables and classes in proper
+- [ ] - :The change is added to the planned release
